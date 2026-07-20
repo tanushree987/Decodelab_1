@@ -7,12 +7,14 @@ A simple and responsive Todo List Web Application built using HTML, CSS, JavaScr
 Technologies Used:
 
 Frontend:
-  -HTML
-  -CSS3
-  -JavaScript 
+  - HTML
+  - CSS3
+  - JavaScript
+    
 Backend:
-  -Python
-  -Flask
-  -Flask-CORS
+  - Python
+  - Flask
+  - Flask-CORS
+    
 Data Storage:
-  -JSON File (tasks.json)
+  - JSON File (tasks.json)
