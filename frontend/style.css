@@ -1,0 +1,155 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#EEF2FF,#DDEBFF);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:700px;
+    max-width:95%;
+    background:#fff;
+    border-radius:18px;
+    padding:30px;
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+h1{
+    text-align:center;
+    color:#4F46E5;
+    margin-bottom:25px;
+}
+
+.input-area{
+    display:flex;
+    gap:12px;
+    margin-bottom:25px;
+}
+
+input{
+    flex:1;
+    padding:14px;
+    border:2px solid #D1D5DB;
+    border-radius:10px;
+    outline:none;
+    font-size:16px;
+    transition:.3s;
+}
+
+input:focus{
+    border-color:#6366F1;
+}
+
+#addBtn{
+    background:#6366F1;
+    color:white;
+    border:none;
+    padding:14px 22px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+#addBtn:hover{
+    background:#4F46E5;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#F8FAFC;
+    padding:15px;
+    margin-bottom:12px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+li:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+}
+
+.completed{
+    background:#D1FAE5;
+}
+
+.completed span{
+    text-decoration:line-through;
+    color:#6B7280;
+}
+
+.actions{
+    display:flex;
+    gap:8px;
+}
+
+.actions button{
+    border:none;
+    padding:8px 14px;
+    border-radius:8px;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+    font-size:14px;
+}
+
+.done{
+    background:#10B981;
+}
+
+.done:hover{
+    background:#059669;
+}
+
+.edit{
+    background:#F59E0B;
+}
+
+.edit:hover{
+    background:#D97706;
+}
+
+.delete{
+    background:#EF4444;
+}
+
+.delete:hover{
+    background:#DC2626;
+}
+
+@media(max-width:650px){
+
+.input-area{
+    flex-direction:column;
+}
+
+#addBtn{
+    width:100%;
+}
+
+li{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:15px;
+}
+
+.actions{
+    width:100%;
+    justify-content:flex-end;
+}
+
+}
