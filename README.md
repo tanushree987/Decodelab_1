@@ -7,9 +7,9 @@ A simple and responsive Todo List Web Application built using HTML, CSS, JavaScr
 Technologies Used:
 
 Frontend
-  HTML5
+  HTML
   CSS3
-  JavaScript (ES6)
+  JavaScript 
 Backend
   Python
   Flask
